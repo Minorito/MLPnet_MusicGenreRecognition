@@ -26,7 +26,6 @@ import librosa, IPython
 import librosa.display as lplt
 from sklearn.metrics import accuracy_score, plot_confusion_matrix, classification_report
 import seaborn as sn
-import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import KFold
 from tensorflow.keras.losses import sparse_categorical_crossentropy
